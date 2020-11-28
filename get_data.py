@@ -14,12 +14,12 @@ auth.set_access_token(Access_token,Access_token_secret)
 
 api = tw.API(auth,wait_on_rate_limit=True,wait_on_rate_limit_notify=True)
 
-word = '@IvanDuque' +' -filter:retweets'
+word = '#trump' +' -filter:retweets'
 
-places = api.geo_search(query="Colombia", granularity="country")
+places = api.geo_search(query="USA", granularity="country")
 place_id = places[0].id
 
-tweets = tw.Cursor(api.search, q=(word) and("place:%s" % place_id),lang="es").items()
+tweets = tw.Cursor(api.search, q=word,lang="en").items()
 
 
 
