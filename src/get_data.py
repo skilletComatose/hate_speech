@@ -4,10 +4,10 @@ import pandas as pd
 from tqdm import tqdm
 import re
 
-API_key="xxxxxxxxxx"
-API_key_secret="xxxxxxxxxxx"
-Access_token = "xxxxxxxxxxxx"
-Access_token_secret= "xxxxxxxx"
+API_key             = "****************"
+API_key_secret      = "****************"
+Access_token        = "****************"
+Access_token_secret = "****************"
 
 auth = tw.OAuthHandler(API_key,API_key_secret)
 auth.set_access_token(Access_token,Access_token_secret)
@@ -24,7 +24,7 @@ tweets = tw.Cursor(api.search, q=word,lang="en").items()
 
 
 
-with open('data.csv', 'w') as file:
+with open('training_data/data.csv', 'w') as file:
     writer = csv.writer(file,lineterminator='\n')
     writer.writerow(['user_id','tweet'])
     for tweet in tweets:
