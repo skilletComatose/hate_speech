@@ -4,10 +4,10 @@ import pandas as pd
 from tqdm import tqdm
 import re
 
-API_key="GcCte6U4qMqm3Pkva9SRWJpd5"
-API_key_secret="98yOQET4OHaPTMGEhnfw9nOvkg12zBEV8BJ6zazXbQVZd1ptTj"
-Access_token = "236194542-tCfu9u9qkpWUx0DgBzZmPJ6S7h7VzZ7ybCvpEqfx"
-Access_token_secret= "iCZwNZWBuUNpknUHQrIIxqSlJqTe4UGbyZdOEFZCbYZwt"
+API_key="xxxxxxxxxx"
+API_key_secret="xxxxxxxxxxx"
+Access_token = "xxxxxxxxxxxx"
+Access_token_secret= "xxxxxxxx"
 
 auth = tw.OAuthHandler(API_key,API_key_secret)
 auth.set_access_token(Access_token,Access_token_secret)
