@@ -10,6 +10,8 @@ Una vez descargado el repositorio, se instalan las dependencias:
         pip install -r requirements.txt 
 En caso de tener más de una versión de Python, entonces utilizar pip3, luego de haber instalado las dependencias ya será posible hacer la ejecución del archivo hate_speech.ipynb.
 
+<br>
+
 ## Métricas de rendimiento 
 El modelo ejecutado a través de Regresión logística nos muestra el siguiente reporte de clasificación :
 <br>
