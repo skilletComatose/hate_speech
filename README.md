@@ -15,13 +15,21 @@ El modelo ejecutado a través de Regresión logística nos muestra el siguiente 
 <br>
 <br>
 
-![clasification_report](./img/clasification_report.jpg)
+<p align="center">
+  <img  src="./img/clasification_report.jpg">
+</p>
+
+
 <br>  
 acompañado de la siguiente matriz de confusión :
 
 <br>
+<br>
  
-![confusion matrix](./img/confusion_matrix.jpg)
+ <p align="center">
+  <img  src="./img/confusion_matrix.jpg">
+</p>
+
 
 
 
