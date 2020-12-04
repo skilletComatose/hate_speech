@@ -24,7 +24,7 @@ tweets = tw.Cursor(api.search, q=word,lang="en").items()
 
 
 
-with open('training_data/data.csv', 'w') as file:
+with open('training_data/data2.csv', 'w') as file:
     writer = csv.writer(file,lineterminator='\n')
     writer.writerow(['user_id','tweet'])
     for tweet in tweets:
